@@ -30,7 +30,7 @@ return {
 	{ key = "&", mods = "LEADER|SHIFT", action = waction { CloseCurrentTab = { confirm = true } } },
 	{ key = "x", mods = "LEADER",       action = waction { CloseCurrentPane = { confirm = true } } },
 	{ key = "q", mods = "LEADER",       action = waction { CloseCurrentPane = { confirm = false } } },
-	{ key = "n", mods = "LEADER",       action = "ShowLauncher" },
+	{ key = "n", mods = "LEADER",       action = "ActivateCommandPalette" },
 	{ key = "f", mods = "LEADER",       action = "ToggleFullScreen" },
 	{ key = "t", mods = "LEADER",       action = waction { ActivateKeyTable = { name = "tables_pane", one_shot = true, replace_current = false } } },
 }
