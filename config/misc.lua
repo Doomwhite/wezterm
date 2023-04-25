@@ -54,7 +54,7 @@ return {
 	},
 	window_background_image = userDirectory .. ".config/wezterm/wallpaper.jpg",
 	window_background_image_hsb = {
-		brightness = 0.2,
+		brightness = 0.055,
 		hue = 1.0,
 		saturation = 1.0,
 	},
