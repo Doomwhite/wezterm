@@ -31,7 +31,7 @@ return {
 	enable_scroll_bar = true,
 	use_fancy_tab_bar = false,
 	tab_and_split_indices_are_zero_based = false,
-	color_scheme = "OneHalfDark",
+	color_scheme = "Catppuccin Mocha",
 	window_close_confirmation = "NeverPrompt",
 	default_cursor_style = "BlinkingBar",
 	cursor_blink_ease_in = "Constant",
