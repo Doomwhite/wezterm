@@ -65,9 +65,9 @@ else
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "PWSH Supply 2",
+			label = "PWSH Sales",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/supply-project/supply-app-2",
+			cwd = "C:/Projetos/sales-project/sales-app",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -98,6 +98,18 @@ else
 			label = "Zsh Supply API",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
 			cwd = "C:/Projetos/supply-project/supply-api",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Zsh Sales APP",
+			args = { userDirectory .. "scoop/shims/msys2.exe" },
+			cwd = "C:/Projetos/sales-project/sales-app",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Zsh Sales API",
+			args = { userDirectory .. "scoop/shims/msys2.exe" },
+			cwd = "C:/Projetos/sales-project/sales-api",
 			domain = { DomainName = "local" },
 		},
 		{
