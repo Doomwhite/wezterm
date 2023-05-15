@@ -33,7 +33,7 @@ if isPc then
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Rustling Exercises",
+			label = "Rustlings",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "Documents/Projects/Rust/rustlings",
 			domain = { DomainName = "local" },
@@ -48,6 +48,12 @@ if isPc then
 			label = "Dotfiles",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "dotfiles",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Seed",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Rust/seed-rs",
 			domain = { DomainName = "local" },
 		},
 	}
@@ -194,6 +200,18 @@ else
 			label = "Dotfiles",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "dotfiles",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Rustlings",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Rust/rustlings",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Seed",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Rust/seed-rs",
 			domain = { DomainName = "local" },
 		},
 	}
