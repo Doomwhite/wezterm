@@ -131,7 +131,7 @@ else
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Zsh budget APP",
+			label = "Zsh Budget APP",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
 			cwd = "C:/Projetos/budget-project/budget-app",
 			domain = { DomainName = "local" },
