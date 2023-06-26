@@ -95,6 +95,12 @@ else
 			domain = { DomainName = "local" },
 		},
 		{
+			label = "PWSH Bidprocess",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = "C:/Projetos/bidprocess-project/bidprocess-app",
+			domain = { DomainName = "local" },
+		},
+		{
 			label = "PWSH Budget",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = "C:/Projetos/budget-project/budget-app",
@@ -134,6 +140,18 @@ else
 			label = "Zsh Sales API",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
 			cwd = "C:/Projetos/sales-project/sales-api",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Zsh Bidprocess APP",
+			args = { userDirectory .. "scoop/shims/msys2.exe" },
+			cwd = "C:/Projetos/bidprocess-project/bidprocess-app",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Zsh Bidprocess API",
+			args = { userDirectory .. "scoop/shims/msys2.exe" },
+			cwd = "C:/Projetos/bidprocess-project/bidprocess-api",
 			domain = { DomainName = "local" },
 		},
 		{
