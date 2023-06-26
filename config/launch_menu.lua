@@ -45,6 +45,18 @@ if isPc then
 			domain = { DomainName = "local" },
 		},
 		{
+			label = "Projects",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Zig",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Zig",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Zig",
+			domain = { DomainName = "local" },
+		},
+		{
 			label = "Dotfiles",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "dotfiles",
@@ -188,6 +200,18 @@ else
 			label = "Documents",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "Documents",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Projects",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Zig",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Zig",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Zig",
 			domain = { DomainName = "local" },
 		},
 		{
