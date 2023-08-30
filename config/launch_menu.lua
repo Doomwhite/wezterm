@@ -68,6 +68,12 @@ if isPc then
 			cwd = userDirectory .. "Documents/Projects/Rust/seed-rs",
 			domain = { DomainName = "local" },
 		},
+		{
+			label = "Exercism",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Exercism",
+			domain = { DomainName = "local" },
+		},
 	}
 else
 	return {
@@ -236,6 +242,12 @@ else
 			label = "Seed",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "Documents/Projects/Rust/seed-rs",
+			domain = { DomainName = "local" },
+		},
+		{
+			label = "Exercism",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Exercism",
 			domain = { DomainName = "local" },
 		},
 	}
