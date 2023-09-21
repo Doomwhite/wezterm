@@ -1,5 +1,5 @@
 local directories = {}
-local isPc = true
+local isPc = false
 
 function directories.getIsPc()
 	return isPc
