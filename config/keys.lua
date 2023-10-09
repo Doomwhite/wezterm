@@ -4,8 +4,8 @@ return {
 	-- Send "CTRL-J" to the terminal when pressing CTRL-J, CTRL-J
 	{ key = "j", mods = "LEADER|CTRL",  action = waction { SendString = "\x0A" } },
 	{ key = "w", mods = "LEADER",       action = waction { SplitVertical = { domain = "CurrentPaneDomain" } } },
-	{ key = "c", mods = "CTRL",       action = waction.CopyTo 'Clipboard' },
-	{ key = "v", mods = "CTRL",       action = waction.PasteFrom 'Clipboard' },
+	{ key = "y", mods = "LEADER",  			action = waction.CopyTo 'Clipboard' },
+	{ key = "p", mods = "LEADER",  			action = waction.PasteFrom 'Clipboard' },
 	{ key = "v", mods = "LEADER",       action = waction { SplitHorizontal = { domain = "CurrentPaneDomain" } } },
 	{ key = "z", mods = "LEADER",       action = "TogglePaneZoomState" },
 	{ key = "c", mods = "LEADER",       action = waction { SpawnTab = "CurrentPaneDomain" } },
