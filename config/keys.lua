@@ -4,8 +4,6 @@ return {
 	-- Send "CTRL-J" to the terminal when pressing CTRL-J, CTRL-J
 	{ key = "j", mods = "LEADER|CTRL",  action = waction { SendString = "\x0A" } },
 	{ key = "w", mods = "LEADER",       action = waction { SplitVertical = { domain = "CurrentPaneDomain" } } },
-	{ key = "y", mods = "LEADER",  			action = waction.CopyTo 'Clipboard' },
-	{ key = "p", mods = "LEADER",  			action = waction.PasteFrom 'Clipboard' },
 	{ key = "v", mods = "LEADER",       action = waction { SplitHorizontal = { domain = "CurrentPaneDomain" } } },
 	{ key = "z", mods = "LEADER",       action = "TogglePaneZoomState" },
 	{ key = "c", mods = "LEADER",       action = waction { SpawnTab = "CurrentPaneDomain" } },
@@ -18,6 +16,7 @@ return {
 	{ key = "K", mods = "LEADER|SHIFT", action = waction { AdjustPaneSize = { "Up", 5 } } },
 	{ key = "L", mods = "LEADER|SHIFT", action = waction { AdjustPaneSize = { "Right", 5 } } },
 	{ key = "p", mods = "LEADER",       action = waction { PasteFrom = "Clipboard" } },
+	{ key = "y", mods = "LEADER",       action = waction { CopyTo = "ClipboardAndPrimarySelection" } },
 	{ key = "1", mods = "LEADER",       action = waction { ActivateTab = 0 } },
 	{ key = "2", mods = "LEADER",       action = waction { ActivateTab = 1 } },
 	{ key = "3", mods = "LEADER",       action = waction { ActivateTab = 2 } },

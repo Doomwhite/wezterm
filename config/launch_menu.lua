@@ -57,6 +57,12 @@ if isPc then
 			domain = { DomainName = "local" },
 		},
 		{
+			label = "Anime collection",
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
+			cwd = userDirectory .. "Documents/Projects/Zig/anime_collection.zig",
+			domain = { DomainName = "local" },
+		},
+		{
 			label = "Dotfiles",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "dotfiles",
@@ -113,15 +119,9 @@ else
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "PWSH Quality temp",
-			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/quality-project/quality-app",
-			domain = { DomainName = "local" },
-		},
-		{
 			label = "PWSH Quality",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/quality/src/Movtech.Quality.Presentation.Web",
+			cwd = "C:/Projetos/quality-project/quality-app",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -194,12 +194,6 @@ else
 			label = "Zsh BSC API",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
 			cwd = "C:/Projetos/bsc-project/bsc-api",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Quality",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/quality",
 			domain = { DomainName = "local" },
 		},
 		{
