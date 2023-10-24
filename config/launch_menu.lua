@@ -5,7 +5,7 @@ if isPc then
 	return {
 		{
 			label = "PowerShell",
-			args = { "C:/Program Files/PowerShell/7/pwsh.exe", "-WorkingDirectory", wezterm.home_dir },
+			args = { userDirectory .. "scoop/shims/pwsh.exe", "-WorkingDirectory", wezterm.home_dir },
 			domain = { DomainName = "local" },
 		},
 		{
@@ -16,19 +16,19 @@ if isPc then
 		},
 		{
 			label = "Emacs Config",
-			args = { "C:/Program Files/PowerShell/7/pwsh.exe" },
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. ".config/emacs",
 			domain = { DomainName = "local" },
 		},
 		{
 			label = "Wezterm Config",
-			args = { "C:/Program Files/PowerShell/7/pwsh.exe" },
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. ".config/wezterm",
 			domain = { DomainName = "local" },
 		},
 		{
 			label = "Neovim Config",
-			args = { "C:/Program Files/PowerShell/7/pwsh.exe" },
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "AppData/Local/nvim",
 			domain = { DomainName = "local" },
 		},
@@ -282,7 +282,7 @@ else
 		},
 		{
 			label = "Emacs Config",
-			args = { "C:/Program Files/PowerShell/7/pwsh.exe" },
+			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. ".config/emacs",
 			domain = { DomainName = "local" },
 		},
