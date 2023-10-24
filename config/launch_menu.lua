@@ -280,5 +280,11 @@ else
 			cwd = userDirectory .. "Exercism",
 			domain = { DomainName = "local" },
 		},
+		{
+			label = "Emacs Config",
+			args = { "C:/Program Files/PowerShell/7/pwsh.exe" },
+			cwd = userDirectory .. ".config/emacs",
+			domain = { DomainName = "local" },
+		},
 	}
 end
