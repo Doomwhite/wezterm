@@ -121,13 +121,13 @@ else
 		{
 			label = "PWSH BSC",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/bsc-project/bsc-app",
+			cwd = "C:/Projetos/bsc/src/Movtech.Bsc.Presentation.Web",
 			domain = { DomainName = "local" },
 		},
 		{
 			label = "PWSH Quality",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/quality-project/quality-app",
+			cwd = "C:/Projetos/quality/src/Movtech.Quality.Presentation.Web",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -191,27 +191,15 @@ else
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Zsh BSC APP",
+			label = "Zsh BSC",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/bsc-project/bsc-app",
+			cwd = "C:/Projetos/bsc/src/Movtech.Bsc.Presentation.Web",
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Zsh BSC API",
+			label = "Zsh Quality",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/bsc-project/bsc-api",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Quality APP",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/quality-project/quality-app",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Quality API",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/quality-project/quality-api",
+			cwd = "C:/Projetos/quality",
 			domain = { DomainName = "local" },
 		},
 		{
