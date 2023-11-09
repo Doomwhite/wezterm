@@ -17,9 +17,9 @@ if file then
     -- Find the lines with the comments and remember their indices
     local startIndex, endIndex = nil, nil
     for i, line in ipairs(lines) do
-        if line:find("^%s*%-%- Include the zig directories to menu items below here%s*$") then
+        if line:find("^%s*%-%- Include the 'zig' directories to menu items below here%s*$") then
             startIndex = i
-        elseif line:find("^%s*%-%- Ends Include the zig directories to menu items below here%s*$") then
+        elseif line:find("^%s*%-%- Ends Include the 'zig' directories to menu items below here%s*$") then
             endIndex = i
         end
     end

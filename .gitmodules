@@ -1,0 +1,3 @@
+[submodule "wezterm_include_launch_items.lua"]
+	path = wezterm_include_launch_items.lua
+	url = https://github.com/Doomwhite/wezterm_include_launch_items.lua.git
