@@ -1,8 +1,11 @@
 local wezterm = require("wezterm")
 local userDirectory = require("../utils/directories").directories.getUser()
 local isPc = require("../utils/directories").directories.getIsPc()
+
+local menuItems = {}
+
 if isPc then
-	return {
+	menuItems = {
 		{
 			label = "PowerShell",
 			args = { userDirectory .. "scoop/shims/pwsh.exe", "-WorkingDirectory", wezterm.home_dir },
@@ -53,7 +56,7 @@ if isPc then
 		{
 			label = "Projects",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = userDirectory .. "Documents/Projects/Zig",
+			cwd = userDirectory .. "Documents/Projects",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -88,7 +91,7 @@ if isPc then
 		},
 	}
 else
-	return {
+	menuItems = {
 		{
 			label = "PWSH",
 			args = { userDirectory .. "scoop/shims/pwsh.exe", "-WorkingDirectory", wezterm.home_dir },
@@ -229,7 +232,7 @@ else
 		{
 			label = "Projects",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = userDirectory .. "Documents/Projects/Zig",
+			cwd = userDirectory .. "Documents/Projects",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -276,3 +279,88 @@ else
 		},
 	}
 end
+
+-- Automatically generated items
+
+-- Include the zig directories to menu items below here
+	table.insert(menuItems, {
+		label = "advent_of_code_zig_2022",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/advent_of_code_zig_2022",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "algorithms.zig",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/algorithms.zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "anime_collection.zig",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/anime_collection.zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "aoc_zig_01",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/aoc_zig_01",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "data-structure",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/data-structure",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "haha",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/haha",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "mach",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/mach",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "qml_zig",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/qml_zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "teste2",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/teste2",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "testezig",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/testezig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "tray",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/tray",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig-gamedev",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/zig-gamedev",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "ziglings",
+		args = { userDirectory .. "scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig/ziglings",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the zig directories to menu items below here
+	
+return menuItems

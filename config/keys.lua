@@ -1,5 +1,7 @@
 local wezterm = require("wezterm")
+local userDirectory = require("../utils/directories").directories.getUser()
 local waction = wezterm.action
+
 return {
 	-- Send "CTRL-J" to the terminal when pressing CTRL-J, CTRL-J
 	{ key = "j", mods = "LEADER|CTRL",  action = waction { SendString = "\x0A" } },
