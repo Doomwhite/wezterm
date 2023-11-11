@@ -66,12 +66,6 @@ if isPc then
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Anime collection",
-			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = userDirectory .. "Documents/Projects/Zig/anime_collection.zig",
-			domain = { DomainName = "local" },
-		},
-		{
 			label = "Dotfiles",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
 			cwd = userDirectory .. "dotfiles",
@@ -284,133 +278,133 @@ end
 
 -- Include the 'zig' directories to menu items below here
 	table.insert(menuItems, {
-		label = "advent_of_code_zig_2022",
+		label = "zig - advent_of_code_zig_2022",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//advent_of_code_zig_2022",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "algorithms.zig",
+		label = "zig - algorithms.zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//algorithms.zig",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "anime_collection.zig",
+		label = "zig - anime_collection.zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//anime_collection.zig",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "aoc_zig_01",
+		label = "zig - aoc_zig_01",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//aoc_zig_01",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "aoc_zig_02",
+		label = "zig - aoc_zig_02",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//aoc_zig_02",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "array_list_files",
+		label = "zig - array_list_files",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//array_list_files",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "examples-raylib.zig",
+		label = "zig - examples-raylib.zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//examples-raylib.zig",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "exercism_zig",
+		label = "zig - exercism_zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//exercism_zig",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "get_array_list_file",
+		label = "zig - get_array_list_file",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//get_array_list_file",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "get_array_list_file_2",
+		label = "zig - get_array_list_file_2",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//get_array_list_file_2",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "hello_world",
+		label = "zig - hello_world",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//hello_world",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "mach-examples",
+		label = "zig - mach-examples",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//mach-examples",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "raylib.zig",
+		label = "zig - raylib.zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//raylib.zig",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "river",
+		label = "zig - river",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//river",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "teste",
+		label = "zig - teste",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//teste",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "teste2",
+		label = "zig - teste2",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//teste2",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "Zig versions",
+		label = "zig - Zig versions",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//Zig versions",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "zig-sqlite-demo",
+		label = "zig - zig-sqlite-demo",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig-sqlite-demo",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "ziglings",
+		label = "zig - ziglings",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//ziglings",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "zig_learn",
+		label = "zig - zig_learn",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_learn",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "zig_sqlite_example",
+		label = "zig - zig_sqlite_example",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_sqlite_example",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "zig_tutorials",
+		label = "zig - zig_tutorials",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_tutorials",
 		domain = { DomainName = "local" },
@@ -419,55 +413,61 @@ end
 
 -- Include the 'git' directories to menu items below here
 	table.insert(menuItems, {
-		label = "bennypowers-dotfiles-master",
+		label = "git - bennypowers-dotfiles-master",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//bennypowers-dotfiles-master",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "DOOM-fire-zig",
+		label = "git - DOOM-fire-zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//DOOM-fire-zig",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "git-crypt-keys",
+		label = "git - git-crypt-keys",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//git-crypt-keys",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "kata-machine",
+		label = "git - kata-machine",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//kata-machine",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "mange-dotfiles",
+		label = "git - mange-dotfiles",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//mange-dotfiles",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "Norg-Tutorial",
+		label = "git - Norg-Tutorial",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//Norg-Tutorial",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "recent",
+		label = "git - recent",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//recent",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "Versions",
+		label = "git - Versions",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//Versions",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
-		label = "yew-app",
+		label = "git - wezterm_include_launch_items.lua",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Git//wezterm_include_launch_items.lua",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - yew-app",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Git//yew-app",
 		domain = { DomainName = "local" },
