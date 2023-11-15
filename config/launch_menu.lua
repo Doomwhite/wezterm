@@ -392,6 +392,12 @@ end
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
+		label = "zig - zig_build_test",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_build_test",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
 		label = "zig - zig_learn",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_learn",
@@ -473,5 +479,14 @@ end
 		domain = { DomainName = "local" },
 	})
 -- Ends Include the 'git' directories to menu items below here
-	
+
+-- Include the 'nix' directories to menu items below here
+	table.insert(menuItems, {
+		label = "nix - learn.nix",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Nix//learn.nix",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the 'nix' directories to menu items below here
+
 return menuItems
