@@ -19,6 +19,7 @@ return {
 	{ key = "L", mods = "LEADER|SHIFT", action = waction { AdjustPaneSize = { "Right", 5 } } },
 	{ key = "p", mods = "LEADER",       action = waction { PasteFrom = "Clipboard" } },
 	{ key = "y", mods = "LEADER",       action = waction { CopyTo = "ClipboardAndPrimarySelection" } },
+	{ key = "y", mods = "LEADER|CTRL",  action = "ActivateCopyMode"   },
 	{ key = "1", mods = "LEADER",       action = waction { ActivateTab = 0 } },
 	{ key = "2", mods = "LEADER",       action = waction { ActivateTab = 1 } },
 	{ key = "3", mods = "LEADER",       action = waction { ActivateTab = 2 } },
@@ -35,5 +36,5 @@ return {
 	{ key = "q", mods = "LEADER",       action = waction { CloseCurrentPane = { confirm = false } } },
 	{ key = "n", mods = "LEADER",       action = "ActivateCommandPalette" },
 	{ key = "f", mods = "LEADER",       action = "ToggleFullScreen" },
-	{ key = "t", mods = "LEADER",       action = waction { ActivateKeyTable = { name = "tables_pane", one_shot = true, replace_current = false } } },
+	{ key = "j", mods = "LEADER",       action = waction { ActivateKeyTable = { name = "tables_pane", one_shot = true, replace_current = false } } },
 }
