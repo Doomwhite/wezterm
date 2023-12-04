@@ -100,19 +100,19 @@ else
 		{
 			label = "PWSH Sales",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/sales-project/sales-app",
+			cwd = "C:/Projetos/sales/src/Movtech.Sales.Presentation.Web",
 			domain = { DomainName = "local" },
 		},
 		{
 			label = "PWSH Bidprocess",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/bidprocess-project/bidprocess-app",
+			cwd = "C:/Projetos/bidprocess/src/Movtech.BidProcess.Presentation.Web",
 			domain = { DomainName = "local" },
 		},
 		{
 			label = "PWSH Budget",
 			args = { userDirectory .. "scoop/shims/pwsh.exe" },
-			cwd = "C:/Projetos/budget-project/budget-app",
+			cwd = "C:/Projetos/budget/src/Movtech.Budget.Presentation.Web",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -140,51 +140,21 @@ else
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Zsh Sales APP",
+			label = "Zsh Sales",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/sales-project/sales-app",
+			cwd = "C:/Projetos/sales",
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Zsh Sales API",
+			label = "Zsh Bidprocess",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/sales-project/sales-api",
+			cwd = "C:/Projetos/bidprocess",
 			domain = { DomainName = "local" },
 		},
 		{
-			label = "Zsh Bidprocess APP",
+			label = "Zsh Budget",
 			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/bidprocess-project/bidprocess-app",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Bidprocess API",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/bidprocess-project/bidprocess-api",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Supply APP 2",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/supply-project/supply-app-2",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Supply API 2",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/supply-project/supply-api-2",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Budget APP",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/budget-project/budget-app",
-			domain = { DomainName = "local" },
-		},
-		{
-			label = "Zsh Budget API",
-			args = { userDirectory .. "scoop/shims/msys2.exe" },
-			cwd = "C:/Projetos/budget-project/budget-api",
+			cwd = "C:/Projetos/budget",
 			domain = { DomainName = "local" },
 		},
 		{
@@ -404,9 +374,9 @@ end
 
 -- Include the 'nix' directories to menu items below here
 	table.insert(menuItems, {
-		label = "nix - nix-from-nothing",
+		label = "nix - NixOs-WSL",
 		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
-		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Nix//nix-from-nothing",
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Nix//NixOs-WSL",
 		domain = { DomainName = "local" },
 	})
 -- Ends Include the 'nix' directories to menu items below here
@@ -551,5 +521,69 @@ end
 		domain = { DomainName = "local" },
 	})
 -- Ends Include the 'rust' directories to menu items below here
+
+-- Include the '.config' directories to menu items below here
+	table.insert(menuItems, {
+		label = ".config - .docker-images",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//.docker-images",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - chezmoi",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//chezmoi",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - configstore",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//configstore",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - emacs",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//emacs",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - jgit",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//jgit",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - komorebi",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//komorebi",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - lua_executables",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//lua_executables",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - scoop",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//scoop",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - wezterm",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//wezterm",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - wezterm_include_launch_items",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//wezterm_include_launch_items",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the '.config' directories to menu items below here
+
 
 return menuItems
