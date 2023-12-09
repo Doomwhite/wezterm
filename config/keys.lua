@@ -1,5 +1,4 @@
 local wezterm = require("wezterm")
-local userDirectory = require("../utils/directories").directories.getUser()
 local waction = wezterm.action
 
 return {
