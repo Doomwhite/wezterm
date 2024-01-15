@@ -97,6 +97,12 @@ local menuItems = {
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
+		label = "zig - aftersun",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//aftersun",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
 		label = "zig - algorithms.zig",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//algorithms.zig",
@@ -163,9 +169,69 @@ local menuItems = {
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
+		label = "zig - mach",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//mach",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - mach-core",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//mach-core",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
 		label = "zig - mach-examples",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//mach-examples",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - mach-sysgpu",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//mach-sysgpu",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - openmymind_interfaces",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//openmymind_interfaces",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - openmymind_jsonparsed",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//openmymind_jsonparsed",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - openmymind_learn_zig",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//openmymind_learn_zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - openmymind_memorypool",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//openmymind_memorypool",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - openmymind_ptrcast",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//openmymind_ptrcast",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - pixi",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//pixi",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - podcast",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//podcast",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
@@ -181,9 +247,27 @@ local menuItems = {
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
+		label = "zig - rust-vs-zig",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//rust-vs-zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - sdl-zig-demo",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//sdl-zig-demo",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
 		label = "zig - teste",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Zig//teste",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - teste-fetch",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Zig//teste-fetch",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
@@ -394,6 +478,12 @@ local menuItems = {
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
+		label = "rust - flo",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Rust//flo",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
 		label = "rust - forest-rs",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
 		cwd = "C:/Users/Cliente/Documents/Projects/Rust//forest-rs",
@@ -583,9 +673,9 @@ local menuItems = {
 
 -- Include the 'books' directories to menu items below here
 	table.insert(menuItems, {
-		label = "books - editor",
+		label = "books - desmistificando-webassembly",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-		cwd = "C:/Users/Cliente/Documents/Projects/Books//editor",
+		cwd = "C:/Users/Cliente/Documents/Projects/Books//desmistificando-webassembly",
 		domain = { DomainName = "local" },
 	})
 	table.insert(menuItems, {
@@ -594,13 +684,49 @@ local menuItems = {
 		cwd = "C:/Users/Cliente/Documents/Projects/Books//livro-webassembly-exemplos",
 		domain = { DomainName = "local" },
 	})
+-- Ends Include the 'books' directories to menu items below here
+
+-- Include the 'docker' directories to menu items below here
 	table.insert(menuItems, {
-		label = "books - modulo",
+		label = "docker - app-exemplo",
 		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-		cwd = "C:/Users/Cliente/Documents/Projects/Books//modulo",
+		cwd = "C:/Users/Cliente/Documents/Projects/Docker//app-exemplo",
 		domain = { DomainName = "local" },
 	})
--- Ends Include the 'books' directories to menu items below here
+	table.insert(menuItems, {
+		label = "docker - szuru",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Docker//szuru",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "docker - volume-docker",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Docker//volume-docker",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "docker - ymls",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Docker//ymls",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the 'docker' directories to menu items below here
+
+-- Include the 'js' directories to menu items below here
+	table.insert(menuItems, {
+		label = "js - proxy-server",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Js//proxy-server",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "js - tampermonkey_scripts",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Documents/Projects/Js//tampermonkey_scripts",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the 'js' directories to menu items below here
 
 
 return menuItems

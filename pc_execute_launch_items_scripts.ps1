@@ -16,4 +16,6 @@ Set-Location "launch_item_scripts"
 & .\lua.bat wezterm_include_launch_items.lua --key=.config --directory="\.config" --launch_menu_directory=$launchMenuDir
 & .\lua.bat wezterm_include_launch_items.lua --key=alura --directory="$launchItemsDir\Alura" --launch_menu_directory=$launchMenuDir
 & .\lua.bat wezterm_include_launch_items.lua --key=books --directory="$launchItemsDir\Books" --launch_menu_directory=$launchMenuDir
+& .\lua.bat wezterm_include_launch_items.lua --key=docker --directory="$launchItemsDir\Docker" --launch_menu_directory=$launchMenuDir
+& .\lua.bat wezterm_include_launch_items.lua --key=js --directory="$launchItemsDir\Js" --launch_menu_directory=$launchMenuDir
 & cd ..
