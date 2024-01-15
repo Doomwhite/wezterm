@@ -728,5 +728,74 @@ local menuItems = {
 	})
 -- Ends Include the 'js' directories to menu items below here
 
+-- Include the 'exercism/zig' directories to menu items below here
+	table.insert(menuItems, {
+		label = "exercism/zig - armstrong-numbers",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//armstrong-numbers",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - collatz-conjecture",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//collatz-conjecture",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - difference-of-squares",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//difference-of-squares",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - grains",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//grains",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - hamming",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//hamming",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - hello-world",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//hello-world",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - isbn-verifier",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//isbn-verifier",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - isogram",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//isogram",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - leap",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//leap",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - pangram",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//pangram",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "exercism/zig - scrabble-score",
+		args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/Cliente/Exercism/zig//scrabble-score",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the 'exercism/zig' directories to menu items below here
+
 
 return menuItems
