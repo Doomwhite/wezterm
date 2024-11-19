@@ -39,7 +39,7 @@ return {
 	leader = leader_key,
 	tab_max_width = 16,
 	cursor_blink_rate = 800,
-	scrollback_lines = 5000,
+	scrollback_lines = 15000,
 	inactive_pane_hsb = {
 		hue = 1.0,
 		saturation = 1.0,

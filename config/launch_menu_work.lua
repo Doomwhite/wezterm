@@ -8,81 +8,69 @@ local menuItems = {
 		domain = { DomainName = "local" },
 	},
 	{
-		label = "PWSH Supply",
+		label = "PWSH BidProcess",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = "C:/Projetos/supply-project/supply-app",
+		cwd = "C:/Projetos/bid-process.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "PWSH Sales",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = "C:/Projetos/sales/src/Movtech.Sales.Presentation.Web",
+		cwd = "C:/Projetos/sales.git",
 		domain = { DomainName = "local" },
 	},
 	{
-		label = "PWSH Bidprocess",
+		label = "PWSH BidProcess",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = "C:/Projetos/bidprocess/src/Movtech.BidProcess.Presentation.Web",
+		cwd = "C:/Projetos/bid-process.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "PWSH Budget",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = "C:/Projetos/budget/src/Movtech.Budget.Presentation.Web",
+		cwd = "C:/Projetos/budget.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "PWSH BSC",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = "C:/Projetos/bsc/src/Movtech.Bsc.Presentation.Web",
+		cwd = "C:/Projetos/bsc.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "PWSH Quality",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = "C:/Projetos/quality/src/Movtech.Quality.Presentation.Web",
+		cwd = "C:/Projetos/quality.git",
 		domain = { DomainName = "local" },
 	},
 	{
-		label = "Zsh Supply APP",
+		label = "Zsh BidProcess",
 		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/supply-project/supply-app",
-		domain = { DomainName = "local" },
-	},
-	{
-		label = "Zsh Supply API",
-		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/supply-project/supply-api",
+		cwd = "C:/Projetos/bid-process.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "Zsh Sales",
 		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/sales",
-		domain = { DomainName = "local" },
-	},
-	{
-		label = "Zsh Bidprocess",
-		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/bidprocess",
+		cwd = "C:/Projetos/sales.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "Zsh Budget",
 		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/budget",
+		cwd = "C:/Projetos/budget.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "Zsh BSC",
 		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/bsc/src/Movtech.Bsc.Presentation.Web",
+		cwd = "C:/Projetos/bsc.git",
 		domain = { DomainName = "local" },
 	},
 	{
 		label = "Zsh Quality",
 		args = { userDirectory .. "scoop/shims/msys2.exe" },
-		cwd = "C:/Projetos/quality",
+		cwd = "C:/Projetos/quality.git",
 		domain = { DomainName = "local" },
 	},
 	{
@@ -95,12 +83,6 @@ local menuItems = {
 		label = "Neovim Config",
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
 		cwd = userDirectory .. "AppData/Local/nvim",
-		domain = { DomainName = "local" },
-	},
-	{
-		label = "WezTerm Config",
-		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = userDirectory .. ".config/wezterm",
 		domain = { DomainName = "local" },
 	},
 	{
@@ -150,493 +132,486 @@ local menuItems = {
 		args = { userDirectory .. "scoop/shims/pwsh.exe" },
 		cwd = userDirectory .. "Exercism",
 		domain = { DomainName = "local" },
-	},
-	{
-		label = "Emacs Config",
-		args = { userDirectory .. "scoop/shims/pwsh.exe" },
-		cwd = userDirectory .. ".config/emacs",
-		domain = { DomainName = "local" },
-	},
+	}
 }
 
 -- Automatically generated items
 
 -- Include the 'zig' directories to menu items below here
-table.insert(menuItems, {
-	label = "zig - advent_of_code_zig_2022",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//advent_of_code_zig_2022",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - algorithms.zig",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//algorithms.zig",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - anime_collection.zig",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//anime_collection.zig",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - aoc_zig_01",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//aoc_zig_01",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - aoc_zig_02",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//aoc_zig_02",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - array_list_files",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//array_list_files",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - examples-raylib.zig",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//examples-raylib.zig",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - exercism_zig",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//exercism_zig",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - get_array_list_file",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//get_array_list_file",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - get_array_list_file_2",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//get_array_list_file_2",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - helloworld",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//helloworld",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - hello_world",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//hello_world",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - mach-examples",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//mach-examples",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - raylib.zig",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//raylib.zig",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - river",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//river",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - teste",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//teste",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - teste2",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//teste2",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - Zig versions",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//Zig versions",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - zig-sqlite-demo",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig-sqlite-demo",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - ziglings",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//ziglings",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - zig_build_test",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_build_test",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - zig_learn",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_learn",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - zig_sqlite_example",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_sqlite_example",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "zig - zig_tutorials",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Zig//zig_tutorials",
-	domain = { DomainName = "local" },
-})
+	table.insert(menuItems, {
+		label = "zig - advent_of_code_zig_2022",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//advent_of_code_zig_2022",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - algorithms.zig",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//algorithms.zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - anime_collection.zig",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//anime_collection.zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - aoc_zig_01",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//aoc_zig_01",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - cpp-zig",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//cpp-zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - data-structure",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//data-structure",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - godot-zig-template.git",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//godot-zig-template.git",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - godot-zig.git",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//godot-zig.git",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - haha",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//haha",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - mach",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//mach",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - mach-editor",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//mach-editor",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - qml_zig",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//qml_zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - system_tools.zig",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//system_tools.zig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - teste2",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//teste2",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - testezig",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//testezig",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - tray",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//tray",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - zig-gamedev",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//zig-gamedev",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - zig-imgui",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//zig-imgui",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - zig-sqlite-demo.git",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//zig-sqlite-demo.git",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - ziglings",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//ziglings",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "zig - zls.git",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Zig//zls.git",
+		domain = { DomainName = "local" },
+	})
 -- Ends Include the 'zig' directories to menu items below here
 
 -- Include the 'git' directories to menu items below here
-table.insert(menuItems, {
-	label = "git - bennypowers-dotfiles-master",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//bennypowers-dotfiles-master",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - DOOM-fire-zig",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//DOOM-fire-zig",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - DooMWhite",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//DooMWhite",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - git-crypt-keys",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//git-crypt-keys",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - kata-machine",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//kata-machine",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - mange-dotfiles",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//mange-dotfiles",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - Norg-Tutorial",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//Norg-Tutorial",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - recent",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//recent",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - Versions",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//Versions",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - wezterm_include_launch_items.lua",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//wezterm_include_launch_items.lua",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "git - yew-app",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Git//yew-app",
-	domain = { DomainName = "local" },
-})
+	table.insert(menuItems, {
+		label = "git - FasendoFesta",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//FasendoFesta",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - git-crypt-keys",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//git-crypt-keys",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - komorebi",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//komorebi",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - mange-dotfiles",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//mange-dotfiles",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - minecraft-atm-8",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//minecraft-atm-8",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - norg-specs",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//norg-specs",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - Norg-Tutorial",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//Norg-Tutorial",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "git - teste",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Git//teste",
+		domain = { DomainName = "local" },
+	})
 -- Ends Include the 'git' directories to menu items below here
 
 -- Include the 'nix' directories to menu items below here
-table.insert(menuItems, {
-	label = "nix - learn.nix",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Nix//learn.nix",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "nix - nix-from-nothing",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Nix//nix-from-nothing",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "nix - NixOs",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Nix//NixOs",
-	domain = { DomainName = "local" },
-})
+	table.insert(menuItems, {
+		label = "nix - NixOs-WSL",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Nix//NixOs-WSL",
+		domain = { DomainName = "local" },
+	})
 -- Ends Include the 'nix' directories to menu items below here
 
 -- Include the 'rust' directories to menu items below here
-table.insert(menuItems, {
-	label = "rust - adder",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//adder",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - bamboo",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//bamboo",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - bevy_cheat_book",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//bevy_cheat_book",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - bevy_gameserver",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//bevy_gameserver",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - collections",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//collections",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - crossbeam",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//crossbeam",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - enums_pattern_matching",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//enums_pattern_matching",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - error_handling",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//error_handling",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - examples-rs",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//examples-rs",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - feather",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//feather",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - forest-rs",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//forest-rs",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - guessing_game",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//guessing_game",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - hello_world",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//hello_world",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - life-times",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//life-times",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - life_times",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//life_times",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - minigrep",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//minigrep",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - my-project",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//my-project",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - my_bevy_game",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//my_bevy_game",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - restaurant",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//restaurant",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - rose-offline",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//rose-offline",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - rust-protobuf",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//rust-protobuf",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - rust-tutorials",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//rust-tutorials",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - rustlings",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//rustlings",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - rust_alura_cargo",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//rust_alura_cargo",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - seed-rs",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//seed-rs",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - sqlx",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//sqlx",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - sqlxx",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//sqlxx",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - structs",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//structs",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - toml",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//toml",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = "rust - traits",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/Documents/Projects/Rust//traits",
-	domain = { DomainName = "local" },
-})
+	table.insert(menuItems, {
+		label = "rust - bevy_cheat_book",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//bevy_cheat_book",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - bevy_ecs_ldtk",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//bevy_ecs_ldtk",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - bevy_spicy_networking",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//bevy_spicy_networking",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - collections",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//collections",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - cxx-qt",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//cxx-qt",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - flo",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//flo",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - gdextension",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//gdextension",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - guessing_game",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//guessing_game",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - hello_cargo",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//hello_cargo",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - hello_world",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//hello_world",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - my-gdnative-lib",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//my-gdnative-lib",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - nushell",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//nushell",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - PostgreSQL",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//PostgreSQL",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - restaurant",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//restaurant",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - rose-offline",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//rose-offline",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - rustlings",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//rustlings",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - seed-rs",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//seed-rs",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - sqlx",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//sqlx",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - teste-rune",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//teste-rune",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - testerust",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//testerust",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - thetawave",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//thetawave",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - valence",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//valence",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - variables",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//variables",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - zero-to-rust-in-production",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//zero-to-rust-in-production",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "rust - zwatch",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Rust//zwatch",
+		domain = { DomainName = "local" },
+	})
 -- Ends Include the 'rust' directories to menu items below here
 
 -- Include the '.config' directories to menu items below here
-table.insert(menuItems, {
-	label = ".config - configstore",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//configstore",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - emacs",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//emacs",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - jgit",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//jgit",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - kawaii-player",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//kawaii-player",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - komorebi",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//komorebi",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - ppsspp",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//ppsspp",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - scoop",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//scoop",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - trackma",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//trackma",
-	domain = { DomainName = "local" },
-})
-table.insert(menuItems, {
-	label = ".config - wezterm",
-	args = { "C:/Users/Cliente/scoop/shims/pwsh.exe" },
-	cwd = "C:/Users/Cliente/.config//wezterm",
-	domain = { DomainName = "local" },
-})
+	table.insert(menuItems, {
+		label = ".config - .docker-images",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//.docker-images",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - chezmoi",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//chezmoi",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - configstore",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//configstore",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - configuring-emacs",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//configuring-emacs",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - emacs",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//emacs",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - emacs dt",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//emacs dt",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - emacs2",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//emacs2",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - emacs4",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//emacs4",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - jgit",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//jgit",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - komorebi",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//komorebi",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - lua_executables",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//lua_executables",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - scoop",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//scoop",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - wezterm",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//wezterm",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = ".config - wezterm_include_launch_items",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/.config//wezterm_include_launch_items",
+		domain = { DomainName = "local" },
+	})
 -- Ends Include the '.config' directories to menu items below here
 
+-- Include the 'alura' directories to menu items below here
+	table.insert(menuItems, {
+		label = "alura - alura-cxx",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Alura//alura-cxx",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "alura - alura-cxx.git",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Alura//alura-cxx.git",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "alura - alura-node",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Alura//alura-node",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the 'alura' directories to menu items below here
+
+-- Include the 'emacs' directories to menu items below here
+	table.insert(menuItems, {
+		label = "emacs - all-the-icons.el",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Emacs//all-the-icons.el",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "emacs - emacs-notes",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Emacs//emacs-notes",
+		domain = { DomainName = "local" },
+	})
+	table.insert(menuItems, {
+		label = "emacs - emacs.git",
+		args = { "C:/Users/adinelson.bruhmuller.MOVTECH/scoop/shims/pwsh.exe" },
+		cwd = "C:/Users/adinelson.bruhmuller.MOVTECH/Documents/Projects/Emacs//emacs.git",
+		domain = { DomainName = "local" },
+	})
+-- Ends Include the 'emacs' directories to menu items below here
+
+-- Include the 'cxx' directories to menu items below here
+-- End Include the 'cxx' directories to menu items below here
+
+-- Include the 'godot' directories to menu items below here
+-- End Include the 'godot' directories to menu items below here
 
 return menuItems
