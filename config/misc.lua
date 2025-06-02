@@ -25,7 +25,7 @@ end)
 
 return {
 	term = "xterm-256color",
-	default_prog = { userDirectory .. "scoop/shims/pwsh.exe" },
+	default_prog = { userDirectory .. "scoop/shims/nu.exe" },
 	check_for_updates = true,
 	hide_tab_bar_if_only_one_tab = true,
 	enable_scroll_bar = true,
