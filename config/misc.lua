@@ -63,6 +63,6 @@ return {
 		hue = 1.0,
 		saturation = 1.0,
 	},
-	font = wezterm.font("IBM Plex Mono"),
+	font = wezterm.font("Berkeley Mono"),
 	set_environment_variables = {},
 }
