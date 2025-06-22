@@ -46,6 +46,11 @@ return {
 		brightness = 1.0,
 	},
 	font_size = 10.0,
+	audible_bell = "Disabled",
+	visual_bell = {
+		fade_in_duration_ms = 0,
+		fade_out_duration_ms = 0,
+	},
 	window_padding = {
 		left = 1,
 		right = 1,
